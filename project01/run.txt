@@ -1,0 +1,7 @@
+Kompilacja:
+
+mpic++ -O2 Alloc.cpp Life.cpp LifeParallelImplementation.cpp LifeSequentialImplementation.cpp Main.cpp Rules.cpp SimpleRules.cpp -o main.x
+
+Uruchomienie:
+
+mpirun -n 2 ./main.x
